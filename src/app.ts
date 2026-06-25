@@ -18,3 +18,5 @@ app.use('/api/auth', authRouter);
 app.use('/api/profile', profileRouter);
 app.use('/api/users', usersRouter);
 app.use(errorMiddleware);
+
+export default app;
